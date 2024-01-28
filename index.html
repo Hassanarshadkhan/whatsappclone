@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        #sidebar {
+            position: absolute;
+            float: left;
+            
+      
+    background-color: rgb(77, 72, 72);
+    width: 34.5%;
+    height: 750px;
+    border: 1px solid black;
+     
+    
+}
+#chatbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+width: 100%;
+height: 50px;
+
+
+
+}
+#searchbar {
+
+    display: flex;
+    align-items: center; 
+}
+#child {
+    /* position: absolute;
+    
+    left: 440px;
+    */
+}
+#input1 {
+    width: 99%;
+    height: 50px;
+    
+    outline: none;
+    background-color: rgb(77, 72, 72);
+    color: white;
+    border: 0;
+    border-bottom: 3px solid rgb(1, 114, 1);
+    margin-left: 50px;
+    margin-right: 40px;
+    
+}
+::placeholder {
+    color: white;
+}
+li {
+    position: relative;
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+}
+#img1 {
+    position: relative;
+    border-radius: 50%;
+    height: 40px;
+    width: 15%;
+}
+h4 {
+    color: white;
+  margin-right: 170px;
+
+}
+
+    
+
+
+
+#archieved {
+     display: flex;
+     justify-content: space-around;
+
+}
+#arcicon {
+    margin-top: 21px;
+}
+.contacts {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    
+}
+#para1 {
+    color: white;
+    float: left;
+    margin-left: 10px;
+}
+#img2 {
+    border-radius: 50%;
+    width: 10%;
+    height: 30px;
+    float: left;
+}
+#scroll {
+    max-height: 600px;
+    overflow: scroll;
+}
+#rightside {
+    background-image: url(img/pattern.jpg);
+    float: right;
+    width: 65%;
+    height: 750px;
+    border: 1px solid black;
+}
+#img3 {
+    border-radius: 50%;
+    width: 80%;
+    height: 60px;
+    
+}
+#para2 {
+    position: relative;
+    color: white;
+    margin-right: 250px;
+}
+#box0 {
+    width: 65%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#box3, #box4, #box5 {
+    position: relative;
+    left: 250px;
+}  
+#para3 {
+    color: white;
+    background-color: rgb(2, 70, 2);
+    float: right;
+}
+#para4 {
+     color: white;
+    background-color: rgb(2, 70, 2);
+    float: right;
+    
+}
+button {
+    color: white;
+    background-color: rgb(2, 70, 2);
+    float: right;
+    text-indent: 53px;
+    
+}
+#para5 {
+    color: #faf9f5;
+    background-color :rgb(77, 72, 72) ;
+    margin-left: 100px;
+}
+#img4 {
+    margin-left: 30px;
+    height: 180px;
+    width: 200px;
+}
+#para6 {
+    color: #faf9f5;
+}
+#box9{
+    
+    margin-top: 12px;
+}
+#para6 {
+    margin-left: 50px;
+ 
+}
+#para7 {
+    color: #faf9f7;
+    background-color: rgb(2, 70, 2);
+    margin-left: 500px;
+    border-radius: 10px 1px 10px 10px;
+}
+#lastbar {
+   
+    width: 100%;
+    height: 52px;
+    background-color: rgb(77, 72, 72);
+}
+#input2 {
+    width: 80%;
+    height: 47px;
+    background-color: rgb(77, 72, 72);
+    outline: none;
+    border: 0;
+    color: #f8f7f2;
+}
+
+    
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="rightside">
+ <div id="box0">
+        <div id="box1">
+            <img id="img3" src="img/img.1.jpg" alt="img">
+        </div>
+            <div id="box2">
+               <p id="para2">hassan khan <br>online</p>
+        </div>
+            <div id="box3">
+                <i class="fa-solid fa-phone" style="color: #faf9f5;"></i>
+            </div>
+            <div id="box4">
+            
+                <i class="fa-solid fa-video" style="color: #fcfbf9;"></i>
+            </div>
+            <div id="box5">
+            
+                <i class="fa-solid fa-magnifying-glass" style="color: #fdfcf8;"></i>
+            </div>
+            
+    </div>
+    <div id="box6">
+        <p id="para3">how are you my friend?-----------------------</p>
+    </div>
+    <br><br>
+    <div id="box7">
+        <p id="para4"><i class="fa-solid fa-file" style="color: #FFD43B;"></i>ALL FILES.ZIP <BR>
+            23.5 MB Comprssed zip folder <br><button>open</button><button>save us</button></p>
+           
+            
+    </div>
+    <br><br><br><br>
+    <div id="box8"> 
+        <p id="para5">OK</p>
+    </div>
+     <div id="box9"> 
+        <img id="img4" src="img/img.3.jpg" alt="img">
+        <p id="para6">so beautiful place</p>
+        <br><br><br>
+        <p id="para7">Wow what a great time enjoy </p>
+    </div>
+    <br><br><br><br>
+    <div id="lastbar">
+         <div id="box10"> 
+            
+         </div>
+         <div id="box11"> 
+            
+         </div>
+         <div id="box12">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa-regular fa-face-smile" style="color: #fcfbf9;"></i>&nbsp;&nbsp;&nbsp;&nbsp; 
+            <i class="fa-solid fa-paperclip" style="color: #faf9f4;"></i>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input id="input2" type="text" placeholder="Type a message">&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa-solid fa-share-from-square" style="color: #f8f7f2;"></i>
+         </div>
+         <div id="box13"> </div>
+    </div>
+    
+
+</div>
+    <div id="sidebar">
+        <div id="chatbox">
+           <img id="img1"  src="img/img.1.jpg" alt="img">
+           <h4>Chats</h4>
+           <ul>
+            <li><i class="fa-solid fa-bars" style="color: #ffffff;"></i></li>
+            <li><i class="fa-solid fa-filter" style="color: #faf9f7;"></i></li>
+        </ul>
+
+        </div>
+        <div id="searchbar">
+            <input id="input1" type="text" placeholder="Search or start new chat">
+            <i class="fa-solid fa-magnifying-glass" style="color: #fdfdfc;"></i>
+        </div>
+        <div id="child">
+            
+        </div>
+        <div id="archieved">
+            <div id="arcicon">
+            <i class="fa-solid fa-box-archive" style="color: #fffffd;"></i>
+        </div>
+        <div id="headarc">
+            <h4>Archieved</h4>
+        </div>
+        
+        </div>
+       
+<div id="scroll">
+        
+        <div class="contacts">
+            <img id="img2" src="img/img.1.jpg" alt="img">
+            <p id="para1">
+                hassan khan <br>video &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:14
+
+            </p>
+
+        </div>
+        <div class="contacts">
+            <img id="img2" src="img/img.1.jpg" alt="img">
+            <p id="para1">
+                hassan khan <br>video &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:14
+
+            </p>
+
+        </div>
+        <div class="contacts">
+            <img id="img2" src="img/img.1.jpg" alt="img">
+            <p id="para1">
+                hassan khan <br>video &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:14
+
+            </p>
+
+        </div>
+        <div class="contacts">
+            <img id="img2" src="img/img.1.jpg" alt="img">
+            <p id="para1">
+                hassan khan <br>video &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:14
+
+            </p>
+
+        </div>
+        <div class="contacts">
+            <img id="img2" src="img/img.1.jpg" alt="img">
+            <p id="para1">
+                hassan khan <br>video &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:14
+
+            </p>
+
+        </div>
+        <div class="contacts">
+            <img id="img2" src="img/img.1.jpg" alt="img">
+            <p id="para1">
+                hassan khan <br>video &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:14
+
+            </p>
+
+        </div>
+        <div class="contacts">
+            <img id="img2" src="img/img.1.jpg" alt="img">
+            <p id="para1">
+                hassan khan <br>video &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:14
+
+            </p>
+
+        </div>
+        <div class="contacts">
+            <img id="img2" src="img/img.1.jpg" alt="img">
+            <p id="para1">
+                hassan khan <br>video &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:14
+
+            </p>
+
+        </div>
+        <div class="contacts">
+            <img id="img2" src="img/img.1.jpg" alt="img">
+            <p id="para1">
+                hassan khan <br>video &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:14
+
+            </p>
+
+        </div>
+
+</div>
+
+      
+        
+    
+    
+</body>
+</html>
